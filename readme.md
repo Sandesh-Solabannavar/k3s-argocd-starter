@@ -219,8 +219,8 @@ ip a
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # Gateway API CRDs
-kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.2.0/standard-install.yaml
-kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.2.0/experimental-install.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.3.0/standard-install.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.3.0/experimental-install.yaml
 
 # Argo CD Bootstrap
 kubectl create namespace argocd
